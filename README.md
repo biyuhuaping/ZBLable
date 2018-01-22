@@ -1,4 +1,4 @@
-#ZBLabel ![图片描述]()
+#ZBLabel ![图片描述](http://upload-images.jianshu.io/upload_images/5132421-edf8893e73a713d0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 UILabel具有的功能
 1. 多种字体
@@ -41,9 +41,3 @@ NSLog(@"点击了文字");
 }];
 
 ```
-
-## License
-
-This code is distributed under the terms and conditions of the [MIT license](LICENSE).
-
-## Change-log
