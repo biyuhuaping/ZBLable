@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -23,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tWa-Yw-Yoz" userLabel="Label" customClass="ZBLabel">
-                                <rect key="frame" x="15" y="120" width="345" height="264"/>
+                                <rect key="frame" x="15" y="30" width="345" height="264"/>
                                 <string key="text">宪法修改是国家政治生活中的一件大事，是党中央从新时代坚持和发展中国特色社会主义全局和战略高度作出的重大决策，也是推进全面依法治国、推进国家治理体系和治理能力现代化的重大举措。治国凭圭臬，安邦靠准绳。
 
 19日发布的党的十九届二中全会公报，在社会各界引起高度关注和强烈反响。
@@ -34,9 +33,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="tWa-Yw-Yoz" firstAttribute="top" secondItem="3nq-2g-uSd" secondAttribute="bottom" constant="100" id="e3N-Tn-8jd"/>
+                            <constraint firstItem="tWa-Yw-Yoz" firstAttribute="top" secondItem="3nq-2g-uSd" secondAttribute="bottom" constant="10" id="e3N-Tn-8jd"/>
                             <constraint firstAttribute="trailing" secondItem="tWa-Yw-Yoz" secondAttribute="trailing" constant="15" id="jyY-Bb-Bln"/>
                             <constraint firstItem="tWa-Yw-Yoz" firstAttribute="leading" secondItem="fA0-bS-tgD" secondAttribute="leading" constant="15" id="vYj-Zo-0n5"/>
                         </constraints>
