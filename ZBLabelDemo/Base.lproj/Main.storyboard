@@ -22,26 +22,34 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tWa-Yw-Yoz" userLabel="Label" customClass="ZBLabel">
-                                <rect key="frame" x="15" y="30" width="345" height="264"/>
-                                <string key="text">宪法修改是国家政治生活中的一件大事，是党中央从新时代坚持和发展中国特色社会主义全局和战略高度作出的重大决策，也是推进全面依法治国、推进国家治理体系和治理能力现代化的重大举措。治国凭圭臬，安邦靠准绳。
-
-19日发布的党的十九届二中全会公报，在社会各界引起高度关注和强烈反响。
-
-为新时代中国特色社会主义提供有力宪法保障——各地干部群众热议党的十九届二中全会公报</string>
+                                <rect key="frame" x="15" y="30" width="345" height="325"/>
+                                <mutableString key="text">宪法修改是国家政治生活中的一件大事，是党中央从新时代坚持和发展中国特色社会主义全局和战略高度作出的重大决策，也是推进全面依法治国、推进国家治理体系和治理能力现代化的重大举措。治国凭圭臬，安邦靠准绳。Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1mX-VF-xvv" customClass="ZBLabel">
+                                <rect key="frame" x="15" y="395" width="345" height="167.5"/>
+                                <string key="text">同意默认表示同意同意默认《某某协议》表示同意同意默认表示同意同意默认表示同意同意默认表示同意《某某某协议》为什么textView的x值和y值要设为-5和-8呢, 做过有占位文件的TextView的童鞋就知道了, textView的文字显示, 与边缘有间距, 距离左边就是5了, 上面差不多就是8这个样子, 实在不行自己再xib里调调就知道了
+懒加载的一个TextView, 将背景色设为透明, 将文字颜色设为透明, 设为透明的主要原因是label上去显示内容(其实也可以用textView去显示内容的</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="1mX-VF-xvv" firstAttribute="top" secondItem="tWa-Yw-Yoz" secondAttribute="bottom" constant="40" id="Cse-RZ-9ZN"/>
                             <constraint firstItem="tWa-Yw-Yoz" firstAttribute="top" secondItem="3nq-2g-uSd" secondAttribute="bottom" constant="10" id="e3N-Tn-8jd"/>
+                            <constraint firstItem="1mX-VF-xvv" firstAttribute="leading" secondItem="fA0-bS-tgD" secondAttribute="leading" constant="15" id="htR-sO-uVf"/>
                             <constraint firstAttribute="trailing" secondItem="tWa-Yw-Yoz" secondAttribute="trailing" constant="15" id="jyY-Bb-Bln"/>
                             <constraint firstItem="tWa-Yw-Yoz" firstAttribute="leading" secondItem="fA0-bS-tgD" secondAttribute="leading" constant="15" id="vYj-Zo-0n5"/>
+                            <constraint firstAttribute="trailing" secondItem="1mX-VF-xvv" secondAttribute="trailing" constant="15" id="yQt-CY-OMf"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="label" destination="tWa-Yw-Yoz" id="4HI-4V-Odk"/>
+                        <outlet property="label1" destination="1mX-VF-xvv" id="mUX-ZS-ANY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
